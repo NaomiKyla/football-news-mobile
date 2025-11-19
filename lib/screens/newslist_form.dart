@@ -18,7 +18,7 @@ class _NewsFormPageState extends State<NewsFormPage> {
   String _content = "";
   String _category = "update"; // default
   String _thumbnail = "";
-  bool _isFeatured = false; 
+  bool _isFeatured = false; // default
 
   final List<String> _categories = [
     'transfer',
