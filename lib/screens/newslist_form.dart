@@ -16,7 +16,7 @@ class _NewsFormPageState extends State<NewsFormPage> {
   final _formKey = GlobalKey<FormState>();
   String _title = "";
   String _content = "";
-  String _category = "update"; 
+  String _category = "update"; // default
   String _thumbnail = "";
   bool _isFeatured = false; 
 
